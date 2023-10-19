@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Empowering Your Business with TechnifyAI."
+          paragraph="TechnifyAI empowers your business with custom software solutions. Our dedicated team collaborates closely with you to craft software that perfectly fits your unique needs. We prioritize a deep understanding of your business and its challenges. Our solutions are not just for today but designed to scale with your growth. We believe in rigorous testing, ensuring the reliability and robustness of your software."
           center
           mb="80px"
         />
@@ -27,7 +27,7 @@ const Video = () => {
             >
               <div className="relative aspect-[77/40] items-center justify-center">
                 <Image src="/images/video/video.jpg" alt="video image" fill />
-                <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
+                <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     onClick={() => setOpen(true)}
                     className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"

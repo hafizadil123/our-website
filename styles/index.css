@@ -31,3 +31,10 @@
     @apply opacity-100;
   }
 }
+.to-purple-500 {
+ background-color: #a855f7 var(--tw-gradient-to-position);
+}
+.from-blue-500 {
+  background-color: #3b82f6 var(--tw-gradient-from-position);
+}
+
